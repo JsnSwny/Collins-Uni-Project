@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat'
+}
+
+.hero {
+    background-image: linear-gradient(rgba(219, 115, 46, 0.3), rgba(0, 0, 0, 0.8)), url("images/suzanne2.jpg");
+    background-size: cover;
+    background-position: 0 40%;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    position: absolute;
+    text-align: center;
+    left: 50px;
+}
+
+nav {
+    color: rgb(54, 54, 54);
+    background-color: white;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    position: fixed;
+    box-shadow: 5px 2px 10px 3px rgba(0,0,0, 0.7)
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+}
+
+nav a {
+    cursor: pointer;
+}
+
+nav span {
+    background-color: black;
+    width: 1px;
+    height: 70%;
+    display: block;
+}
+
+
+h1 {
+    color: white;
+    font-size: 100px;
+    line-height: 90px;
+    margin: 0;
+    font-weight: 100;
+}
+
+h2 {
+    color: white;
+    margin: 0;
+    font-weight: 500;
+
+}
+
+button {
+    margin-top: 50px;
+    background-color: rgb(218, 112, 103);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 15px 30px;
+    -webkit-box-shadow: 0px 8px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 5px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
+
+button:hover {
+    background-color: rgb(235, 141, 132);
+}
