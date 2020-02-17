@@ -105,7 +105,7 @@ nav a.bar {
 
 #nav {
   align-self: start;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   transition: 0.2s ease-in background-color;
 }
@@ -126,7 +126,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
 nav ul.bar {
@@ -206,6 +206,10 @@ main h1 {
 
 .interview-content p {
   text-align: justify;
+}
+
+.suzanne h1 {
+  font-size: 40px;
 }
 
 .works-content {
@@ -363,6 +367,9 @@ footer p {
   }
   .fa-bookmark {
     display: none;
+  }
+  main h1 {
+    margin-top: 20px;
   }
 }
 
